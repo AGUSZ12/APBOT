@@ -1,7 +1,7 @@
 <div align="center">
 
     BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
-# Aine BOT
+# AP BOT
 </div>
 
 
@@ -16,9 +16,9 @@
 > apt upgrade
 > pkg install git
 > pkg install nodejs
-> git clone https://github.com/anemio/ainebot
+> git clone https://github.com/AGUSZ12/APBOT
 > ls
-> cd ainebot
+> cd APBOT
 > ls
 > apt install -y wget nodejs tesseract
 > npm i
@@ -64,6 +64,8 @@ sh bot.sh
 * [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
 * [`botst4rz`](https://github.com/Bintang73/botst4rz)
 * [`ibnusyawall`](https://github.com/ibnusyawall)
+* [`Ridwan`](https://github.com/anemio)
+
 
 ## DONASI
-* [`WhatsApp`](https://wa.me/62895330379186)
+* [`WhatsApp`](https://wa.me/6289694354384)

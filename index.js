@@ -19,9 +19,9 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    BotName: 'AINE BOT',
-    instagram: 'https://instagram.com/anemio999',
-    whatsapp: 'wa.me/62895330379186',
+    BotName: 'AP BOT',
+    instagram: 'https://instagram.com/axfc_ap',
+    whatsapp: 'wa.me/6289694354384',
     kapanbotaktif: '24 JAM',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
@@ -89,11 +89,11 @@ fs.existsSync('./session.json') && client.loadAuthInfo('./session.json')
 
 client.connect();
 
-// client.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log(`${time}: Bot by ig:@anemio999`)
+// client.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log(`${time}: Bot by ig:@axfc_ap`)
 
 client.on('message-status-update', json => {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
-   console.log(`[ ${time} ] => bot by ig:@anemio999`)
+   console.log(`[ ${time} ] => bot by ig:@axfc_ap`)
 })
 
 client.on('message-new', async (m) => {
